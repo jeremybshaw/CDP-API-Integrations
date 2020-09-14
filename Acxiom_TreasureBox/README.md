@@ -47,14 +47,30 @@ The script contains mapping rules specified for each DS-API request field. The r
 For example:
 
 **mapping.py**
-
-| source_mapping ``= {``    ``'id'``: ``'customer_id'``,``    ``'firstName'``: ``'first_name'``,``    ``'middleName'``: ``'middle_name'``,``    ``'lastName'``: ``'last_name'``,``    ``'streetAddress'``: ``"""Coalesce(``                  Coalesce(primarynumber, '')\|\|`                  `Coalesce(' ' \|\| predirectional, '')\|\|`                  `Coalesce(' ' \|\| street, '')\|\|`                  `Coalesce(' ' \|\| streetsuffix, '')\|\|`                  `Coalesce(' ' \|\| postdirectional, '')\|\|`                  `Coalesce(' ' \|\| unitdesignator, '')\|\|`                  `Coalesce(' ' \|\| secondarynumber, ''),                ``'')"""``,``        ``'city'``: ``'city'``,``        ``'state'``: ``'state'``,``        ``'zipCode'``: ``'truncate(zipcode)'``        ``} |
-| - |
+```
+source_mapping = {
+    'id': 'customer_id',
+    'firstName': 'first_name',
+    'middleName': 'middle_name',
+    'lastName': 'last_name',
+    'streetAddress': """Coalesce(
+                  Coalesce(primarynumber, '')||
+                  Coalesce(' ' || predirectional, '')||
+                  Coalesce(' ' || street, '')||
+                  Coalesce(' ' || streetsuffix, '')||
+                  Coalesce(' ' || postdirectional, '')||
+                  Coalesce(' ' || unitdesignator, '')||
+                  Coalesce(' ' || secondarynumber, ''),
+                '')""",
+        'city': 'city',
+        'state': 'state',
+        'zipCode': 'truncate(zipcode)'
+        }
+```
 
 The DS-API fields are documented in developer.myacxiom.com.
 
 ### Set the runtime parameters in the DigDag
 
-| # Make sure Python Custom Scripting feature is enabled for your TD account.``# See also: https://support.treasuredata.com/hc/en-us/articles/360026713713-Introduction-to-Custom-Scripts +task1``:``  ``py>``: acxiom_dsapi.bundle_append``  ``_env:``    ``DSAPI_OAUTH_ENDPOINT: 'https://api.acxiom.com/api/v1'``    ``DSAPI_OAUTH_METHOD: '/auth/oauth2/token'``    ``DSAPI_OAUTH_SCOPE: ''``    ``DSAPI_OAUTH_GRANT_TYPE: 'client_credentials'``    ``DSAPI_OAUTH_USERNAME: ''``    ``DSAPI_OAUTH_PASSWORD: ''``    ``DSAPI_CLIENT_ID: $``{``secret``:``DSAPI.CLIENT_ID``}``    ``DSAPI_CLIENT_SECRET: $``{``secret``:``DSAPI.CLIENT_SECRET``}``    ``DSAPI_TENANTID: ''``    ``DSAPI_ROLE: ''``    ``DSAPI_MATCH_ENDPOINT: 'https://test.api.acxiom.com/v1'``    ``DSAPI_MATCH_METHOD: '/person/match'``    ``DSAPI_MATCH_OPTIONS: ''``    ``# 0 no debug information returned, >1 PII returned in log, 9 max forced input 1 rec``    ``DSAPI_DEBUG_LEVEL: 0``    ``DATABASE_NAME: 'dsapi_synthetic'``    ``SOURCE_TABLE: 'raw_synth_pii'``    ``DEST_TABLE: 'dsapi_enhanced_demo_7'``         ``TD_API_KEY: $``{``secret ``:``TD_API_KEY ``}``    ``TD_API_SERVER: $``{``secret``:``TD_API_SERVER``}``     ``bundles: ''``  ``enginename: `'presto'`   ``max_recs_to_process: 500``  ``api_batch_limit: 100``  ``docker:``     ``image: `"digdag/digdag-python:3.7"` |
-| - |
+
 
