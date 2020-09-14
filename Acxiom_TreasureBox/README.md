@@ -10,7 +10,7 @@ The data services API (DS-API) provides a common interface to access Acxiom's co
 
 The following guide covers the steps to integrate a Treasure Data workflow with these services:
 
-![Data Flow](Integration_Overview.jpg)
+![Data Flow](img/Integration_Overview.jpg)
 
 # Pre-requisites
 
