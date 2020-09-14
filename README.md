@@ -1,14 +1,13 @@
-# CDP-API-Integrations
-# Acxiom Data Services (DS-API) Integration with Treasure Data
+#Acxiom Data Enrichment and Identity Builder™
+This Treasure Box gives you access to the most comprehensive, global suite of consumer insights in the market, harnessing data about real people across the most  sources of data to power audience targeting and people-based marketing.
 
-## Integration Overview
+The same Treasure Box integration can be used with the Acxiom Identity Builder™ which offers flexible match logic and configurable identity rules to tailor a first-party identity graph to your unique brand requirements to drive more accurate engagement while  supporting  key use cases as third-party cookies become obsolete. 
 
-The data services API (DS-API) provides a common interface to access Acxiom's core data products which include:
+![Example Data Flow](img/get_started.jpg)
 
-* Name and address parsing and postal hygiene service based enhancements
-* Matching PII to Acxiom's data products and enhancing with data bundles.
-* Enhanced First party identity resolution through Acxiom's Identity BuilderTM
 
-The following guide covers the steps to integrate a Treasure Data workflow with these services:
-
-[Example Data Flow](img/Integration_OverviewIntegration_Overview.jpgimg/Integration_OverviewIntegration_Overview.jpg)
+https://acxiom--c.na66.visual.force.com/sfc/servlet.shepherd/version/download/0680y000003wl2dAAA
+www.acxiom.co.uk
+https://marketing.acxiom.com/ACX-GlobalDataNavigator.html?&utm_source=website&utm_medium=owned&utm_campaign=gdn-tool
+https://acxiom--c.na66.visual.force.com/sfc/servlet.shepherd/version/download/0680y000003fD2tAAE
+https://acxiom--c.na66.visual.force.com/sfc/servlet.shepherd/version/download/0680y000004lh7qAAA
