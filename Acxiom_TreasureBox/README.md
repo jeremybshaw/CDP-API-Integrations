@@ -47,7 +47,7 @@ The script contains mapping rules specified for each DS-API request field. The r
 For example:
 
 **mapping.py**
-```
+```python
 source_mapping = {
     'id': 'customer_id',
     'firstName': 'first_name',
