@@ -29,7 +29,7 @@ The following guide covers the steps to integrate a Treasure Data workflow with 
 
 ## Source data preparation
 
-1. If required, create a new database via the TD console using the ![Database menu](img/database_menu.png) menu option and pressing the <img src='img/new_database_button.png' width='100px'>New Database</image> button.
+1. If required, create a new database via the TD console using the ![Database menu](img/database_menu.png) menu option and pressing the  ![Database Button](img/new_database_button.png) button.
 2. Upload PII data to database using the Integration -> Sources screen. Click on the ![Upload File](img/upload_file.png) button. The data must contain an identity field.
    
 
@@ -37,17 +37,22 @@ The following guide covers the steps to integrate a Treasure Data workflow with 
 ## Add enrichment workflow
 
 1. Add a workflow template and click the Workflows menu:
+
 ![New Workflow](img/workflows_menu.png)
 
 2. Under workflow definition, click on edit workflow:
+
 ![edit workflow](img/edit_workflow.png)
 
 3. Next add in the Python scripts and paste the template code from GIT: 
+
 ![workflow scripts](img/workflow_scripts.png)
 
-4. Next add in the secrets: 
+4. Next add in the secrets:
+
 ![secrets](img/required_secrets.png)
-   Note: Leave DSAPI.TENANTID=empty for the US Synthetic data.
+
+Note: Leave DSAPI.TENANTID=empty for the US Synthetic data.
 
 ## Configuring the Enrichment Flow
 
