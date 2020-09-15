@@ -14,9 +14,9 @@ The following guide covers the steps to integrate a Treasure Data workflow with 
 
 # Pre-requisites
 
-1. Login access to Treasure Data console. (e.g.[https://console.treasuredata.com/app/integrations/sources](https://console.treasuredata.com/app/integrations/sources))
+1. Login access to Treasure Data console. [https://console.treasuredata.com/app](https://console.treasuredata.com/app)
 
-2. A Login account on Acxiom Developer DS-API console. Register here[https://developer.myacxiom.com](https://developer.myacxiom.com/)
+2. A Login account on Acxiom Developer DS-API console. Register here [https://developer.myacxiom.com](https://developer.myacxiom.com/)
 
 3. Add an 'Application Name' in the DS-API Developer console to create an API Key (DSAPI.CLIENT_ID) and API Secret (DSAPI.CLIENT_SECRET)
 ![my acxiom add application](img/add_application.png)
@@ -37,7 +37,7 @@ The following guide covers the steps to integrate a Treasure Data workflow with 
 ## Add enrichment workflow
 
 1. Add a workflow template and click the Workflows menu:
-![New Workflow](/img/workflows_menu.png)
+![New Workflow](img/workflows_menu.png)
 
 2. Under workflow definition, click on edit workflow:
 ![edit workflow](img/edit_workflow.png)
