@@ -39,12 +39,10 @@ The data must contain an identity field. Sample data has been provided in
 ## Add enrichment workflow
 
 1. Add a workflow template and click the Workflows menu:
+![workflow menu](img/workflows_menu.png)
 
-![New Workflow](img/workflows_menu.png)
-
-2. Under workflow definition, click on edit workflow:
-
-![edit workflow](img/edit_workflow.png)
+2. Under workflow definition, click on New workflow:
+![new workflow](img/new_workflow.jpg)
 
 3. Next add in the Python scripts and paste the template code from GIT: 
 
