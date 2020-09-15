@@ -2,21 +2,20 @@
 
 ## Integration Overview
 
-The data services API (DS-API) provides a common interface to access Acxiom's core data products which include:
+The Acxiom data services API (DS-API) provides a common interface to access Acxiom's core data products which include:
 
-* Name and address parsing and postal hygiene service based enhancements
-* Matching PII to Acxiom's data products and enhancing with data bundles.
-* Enhanced First party identity resolution through Acxiom's Identity BuilderTM
+* Name and address standardisation and parsing
+* Matching customer PII to Acxiom's data products and enrichment
+* 1st party identity resolution through Acxiom's Identity Builder
 
-The following guide covers the steps to integrate a Treasure Data workflow with these services:
+The following guide demonstrates the integration of a Treasure Data workflow with Acxiom's DS-API services which contains U.S. style synthetic data.
 
 ![Data Flow](img/Integration_Overview.jpg)
 
 # Pre-requisites
-
 1. Login access to Treasure Data console. [https://console.treasuredata.com/app](https://console.treasuredata.com/app)
 
-2. A Login account on Acxiom Developer DS-API console. Register here [https://developer.myacxiom.com](https://developer.myacxiom.com/)
+2. A Login account on the Acxiom Developer DS-API console. Register here [https://developer.myacxiom.com](https://developer.myacxiom.com/)
 
 3. Add an 'Application Name' in the DS-API Developer console to create an API Key (DSAPI.CLIENT_ID) and API Secret (DSAPI.CLIENT_SECRET)
 ![my acxiom add application](img/add_application.png)
@@ -29,25 +28,31 @@ The following guide covers the steps to integrate a Treasure Data workflow with 
 
 ## Source data preparation
 
-1. If required, create a new database via the TD console using the ![Database menu](img/database_menu.png) menu option and pressing the <img src='img/new_database_button.png' width='100px'>New Database</image> button.
-2. Upload PII data to database using the Integration -> Sources screen. Click on the ![Upload File](img/upload_file.png) button. The data must contain an identity field.
+1. If required, create a new database via the TD console using the ![Database menu](img/database_menu.png) menu option and pressing the  ![Database Button](img/new_database_button.png) button.
+2. Upload PII data to database using the Integration -> Sources screen. 
+Click on ![Upload File](img/upload_file.png) 
+The data must contain an identity field. Sample data has been provided in 
    
-
 
 ## Add enrichment workflow
 
 1. Add a workflow template and click the Workflows menu:
+
 ![New Workflow](img/workflows_menu.png)
 
 2. Under workflow definition, click on edit workflow:
+
 ![edit workflow](img/edit_workflow.png)
 
 3. Next add in the Python scripts and paste the template code from GIT: 
+
 ![workflow scripts](img/workflow_scripts.png)
 
-4. Next add in the secrets: 
+4. Next add in the secrets:
+
 ![secrets](img/required_secrets.png)
-   Note: Leave DSAPI.TENANTID=empty for the US Synthetic data.
+
+Note: Leave DSAPI.TENANTID=empty for the US Synthetic data.
 
 ## Configuring the Enrichment Flow
 
