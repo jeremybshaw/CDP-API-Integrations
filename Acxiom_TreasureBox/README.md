@@ -22,7 +22,7 @@ Note: The dataset used for this demonstration is entirely synthetic.
 ![my acxiom add application](img/add_application.png)
 ![location of api key and secret](img/api_key.png)
 
-4. A Treasure Data API key with Master Access:
+4. A Treasure Data API key (TD_API_KEY) with Master Access and Server (TD_API_SERVER):
 ![Treasure Data API key](img/TD_API_Key.png)
 
 
