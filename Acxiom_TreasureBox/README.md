@@ -6,7 +6,7 @@ The Acxiom data services API (DS-API) provides a common interface to access Acxi
 
 * Name and address standardisation and parsing to postal standards.
 * Matching a consumer's PII to Acxiom's data and enriching.
-* Advanced 1st party data identity resolution through Acxiom's Identity Builder.
+* Advanced 1st party data identity resolution through Acxiom's Identity Builder™.
 
 The following guide demonstrates the integration of a Treasure Data workflow with Acxiom's DS-API services. 
 Note: The dataset used for this demonstration is entirely synthetic.
