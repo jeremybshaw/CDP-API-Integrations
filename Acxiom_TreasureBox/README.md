@@ -32,7 +32,7 @@ Note: The dataset used for this demonstration is entirely synthetic.
 2. Upload PII data to database using the Integration -> Sources screen. 
 Click on ![Upload File](img/upload_file.png) 
 The data must contain an identity field. Sample data has been provided in 
-![US Synth darta](US_synthetic.csv)
+![US Synth data](US_synthetic.csv)
 
    
 
