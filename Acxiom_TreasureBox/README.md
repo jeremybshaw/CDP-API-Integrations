@@ -36,10 +36,17 @@ The following guide covers the steps to integrate a Treasure Data workflow with 
 
 ## Add enrichment workflow
 
-1. Add a workflow template and click the ![New Workflow](/img/workflows_menu.png)
-2. Under workflow definition, click the edit ![edit workflow](img/edit_workflow.png)
-3. Next add in the Python scripts and paste the template code from GIT: ![workflow scripts](img/workflow_scripts.png)
-4. Next add in the secrets: ![secrets](img/required_secrets.png)
+1. Add a workflow template and click the Workflows menu:
+![New Workflow](/img/workflows_menu.png)
+
+2. Under workflow definition, click on edit workflow:
+![edit workflow](img/edit_workflow.png)
+
+3. Next add in the Python scripts and paste the template code from GIT: 
+![workflow scripts](img/workflow_scripts.png)
+
+4. Next add in the secrets: 
+![secrets](img/required_secrets.png)
    Note: Leave DSAPI.TENANTID=empty for the US Synthetic data.
 
 ## Configuring the Enrichment Flow
