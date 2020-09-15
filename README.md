@@ -6,6 +6,6 @@ The same Treasure Box integration can be used with the Acxiom Identity Builderâ„
 [![Get Started](Acxiom_TreasureBox/img/Get_Started.png)](Acxiom_TreasureBox)
 
 
-Acxiom UK Homepage [https://www.acxiom.co.uk](www.acxiom.co.uk)
+Acxiom UK Homepage [www.acxiom.co.uk]([https://www.acxiom.co.uk)
 
-Acxiom Global Data Navigator [https://marketing.acxiom.com/ACX-GlobalDataNavigator.html?&utm_source=website&utm_medium=owned&utm_campaign=gdn-tool](Global Data Navigator)
+Acxiom Global Data Navigator [Global Data Navigator](https://marketing.acxiom.com/ACX-GlobalDataNavigator.html?&utm_source=website&utm_medium=owned&utm_campaign=gdn-tool)
