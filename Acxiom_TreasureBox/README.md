@@ -2,13 +2,13 @@
 
 ## Integration Overview
 
-The data services API (DS-API) provides a common interface to access Acxiom's core data products which include:
+The Acxiom data services API (DS-API) provides a common interface to access Acxiom's core data products which include:
 
-* Name and address parsing and postal hygiene service based enhancements
-* Matching PII to Acxiom's data products and enhancing with data bundles.
-* Enhanced First party identity resolution through Acxiom's Identity BuilderTM
+* Name and address standardisation and parsing
+* Matching customer PII to Acxiom's data products and enrichment
+* 1st party identity resolution through Acxiom's Identity Builder
 
-The following guide covers the steps to integrate a Treasure Data workflow with these services:
+The following guide covers the integration of a Treasure Data workflow with Acxioms DS-API.
 
 ![Data Flow](img/Integration_Overview.jpg)
 
