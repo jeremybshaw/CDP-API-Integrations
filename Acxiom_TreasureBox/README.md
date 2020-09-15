@@ -42,7 +42,7 @@ The data must contain an identity field. Sample data has been provided in
 ![workflow menu](img/workflows_menu.png)
 
 2. Under workflow definition, click on New workflow:
-![new workflow](img/new_workflow.png)
+![new workflow](img/new_workflow.jpg)
 
 3. Next add in the Python scripts and paste the template code from GIT: 
 
