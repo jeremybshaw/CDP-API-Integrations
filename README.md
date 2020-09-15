@@ -3,10 +3,10 @@ This Treasure Box gives you access to the most comprehensive, global suite of co
 
 The same Treasure Box integration can be used with the Acxiom Identity Builder™ which offers flexible match logic and configurable identity rules to tailor a first-party identity graph to your unique brand requirements to drive more accurate engagement while supporting key use cases as third-party cookies become obsolete. 
 
-<div align="middle">
-  <button>get started</button>
+<center><button class="btn btn-primary btn-lg" onclick="location.href='https://github.com/Allant-Tools-Systems/Treasure-Boxes/tree/master/Consumer%20Data%20Enrichment'" type="button"> Get Started </button></center>
+
 [![](Acxiom_TreasureBox/img/Get_Started.png)](Acxiom_TreasureBox)
-</div>
+
 
 
 
