@@ -19,8 +19,8 @@ The following guide covers the steps to integrate a Treasure Data workflow with 
 2. A Login account on Acxiom Developer DS-API console. Register here[https://developer.myacxiom.com](https://developer.myacxiom.com/)
 
 3. Add an 'Application Name' in the DS-API Developer console to create an API Key (DSAPI.CLIENT_ID) and API Secret (DSAPI.CLIENT_SECRET)
-![my acxiom add application](img/add_application.jpg)
-![location of api key and secret](img/api_key.jpg)
+![my acxiom add application](img/add_application.png)
+![location of api key and secret](img/api_key.png)
 
 
 4. A Treasure Data API key with Master Access:
