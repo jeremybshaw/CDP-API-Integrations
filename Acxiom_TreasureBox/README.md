@@ -89,7 +89,7 @@ source_mapping = {
 The DS-API fields are documented in developer.myacxiom.com.
 
 ### Set the runtime parameters in the DigDag
-```digdag
+```yaml
 # Make sure Python Custom Scripting feature is enabled for your TD account.
 # See also: https://support.treasuredata.com/hc/en-us/articles/360026713713-Introduction-to-Custom-Scripts
  
