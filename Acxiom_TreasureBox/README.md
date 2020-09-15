@@ -31,7 +31,7 @@ Note: The dataset used for this demonstration is entirely synthetic.
 1. If required, create a new database via the TD console using the ![Database menu](img/database_menu.png) menu option and pressing the  ![Database Button](img/new_database_button.png) button.
 2. Upload PII data to database using the Integration -> Sources screen. 
 Click on ![Upload File](img/upload_file.png) 
-The data must contain an identity field. Sample data has been provided in 
+The data must contain an identity field. Sample data has been provided in the file:
 [US Style Synthetic Data](US_synthetic.csv)
 
    
