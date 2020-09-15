@@ -3,10 +3,9 @@ This Treasure Box gives you access to the most comprehensive, global suite of co
 
 The same Treasure Box integration can be used with the Acxiom Identity Builder™ which offers flexible match logic and configurable identity rules to tailor a first-party identity graph to your unique brand requirements to drive more accurate engagement while supporting key use cases as third-party cookies become obsolete. 
 
--> [![](Acxiom_TreasureBox/img/Get_Started.png)](Acxiom_TreasureBox) <-
+<span style="text-align:center;">[![](Acxiom_TreasureBox/img/Get_Started.png)](Acxiom_TreasureBox)</span>
 
 
-<span style="color:red; font-family:Georgia; text-align:center; font-size:2em;">The goal of the Women’s Enterprise Action Loan Fund, (WEALF): helping women business owners become financially self-sufficient.</span>
 
 
 https://acxiom--c.na66.visual.force.com/sfc/servlet.shepherd/version/download/0680y000003wl2dAAA
