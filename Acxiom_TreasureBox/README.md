@@ -2,13 +2,14 @@
 
 ## Integration Overview
 
-The Acxiom data services API (DS-API) provides a common interface to access Acxiom's core data products which include:
+The Acxiom data services API (DS-API) provides a common interface to access Acxiom's core toolset which include:
 
-* Name and address standardisation and parsing
-* Matching customer PII to Acxiom's data products and enrichment
-* 1st party identity resolution through Acxiom's Identity Builder
+* Name and address standardisation and parsing.
+* Matching a consumer's PII to Acxiom's data and enriching.
+* Advanced 1st party data identity resolution through Acxiom's Identity Builder.
 
-The following guide demonstrates the integration of a Treasure Data workflow with Acxiom's DS-API services which contains U.S. style synthetic data.
+The following guide demonstrates the integration of a Treasure Data workflow with Acxiom's DS-API services. 
+Note: The dataset used for this demonstration is entirely synthetic.
 
 ![Data Flow](img/Integration_Overview.jpg)
 
@@ -21,7 +22,6 @@ The following guide demonstrates the integration of a Treasure Data workflow wit
 ![my acxiom add application](img/add_application.png)
 ![location of api key and secret](img/api_key.png)
 
-
 4. A Treasure Data API key with Master Access:
 ![Treasure Data API key](img/TD_API_Key.png)
 
@@ -32,6 +32,8 @@ The following guide demonstrates the integration of a Treasure Data workflow wit
 2. Upload PII data to database using the Integration -> Sources screen. 
 Click on ![Upload File](img/upload_file.png) 
 The data must contain an identity field. Sample data has been provided in 
+![US Synth data](US_synthetic.csv)
+
    
 
 ## Add enrichment workflow
