@@ -29,7 +29,7 @@ The following guide covers the steps to integrate a Treasure Data workflow with 
 
 ## Source data preparation
 
-1. If required, create a new database via the TD console using the <img src='img/database_menu.png'></image> menu option and pressing the ![New Database](img/new_database_button.png) button.
+1. If required, create a new database via the TD console using the <img src='img/database_menu.png' width="50%"></image> menu option and pressing the ![New Database](img/new_database_button.png) button.
 2. Upload PII data to database using the Integration -> Sources screen. Click on the ![Upload File](img/upload_file.png) button. The data must contain an identity field.
    
 
