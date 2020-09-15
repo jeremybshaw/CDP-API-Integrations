@@ -32,6 +32,8 @@ The following guide demonstrates the integration of a Treasure Data workflow wit
 2. Upload PII data to database using the Integration -> Sources screen. 
 Click on ![Upload File](img/upload_file.png) 
 The data must contain an identity field. Sample data has been provided in 
+![US Synth darta](US_synthetic.csv)
+
    
 
 ## Add enrichment workflow
