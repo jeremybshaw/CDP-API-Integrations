@@ -2,9 +2,9 @@
 
 ## Integration Overview
 
-The Acxiom data services API (DS-API) provides a common interface to access Acxiom's core toolset which include:
+The Acxiom data services API (DS-API) provides a common interface to access Acxiom's core toolset including:
 
-* Name and address standardisation and parsing.
+* Name and address standardisation and parsing to postal standards.
 * Matching a consumer's PII to Acxiom's data and enriching.
 * Advanced 1st party data identity resolution through Acxiom's Identity Builder.
 
