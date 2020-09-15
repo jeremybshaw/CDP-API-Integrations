@@ -4,6 +4,7 @@ This Treasure Box gives you access to the most comprehensive, global suite of co
 The same Treasure Box integration can be used with the Acxiom Identity Builder™ which offers flexible match logic and configurable identity rules to tailor a first-party identity graph to your unique brand requirements to drive more accurate engagement while supporting key use cases as third-party cookies become obsolete. 
 
 <div align="middle">
+  <button>get started</button>
 [![](Acxiom_TreasureBox/img/Get_Started.png)](Acxiom_TreasureBox)
 </div>
 
