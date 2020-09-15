@@ -6,8 +6,11 @@ The same Treasure Box integration can be used with the Acxiom Identity Builderâ„
 [![Get Started](Acxiom_TreasureBox/img/Get_Started.png)](Acxiom_TreasureBox)
 
 ![](Acxiom_TreasureBox/img/about_1.jpg)
+
 ![](Acxiom_TreasureBox/img/about_2.jpg)
+
 ![](Acxiom_TreasureBox/img/about_3.jpg)
+
 ![](Acxiom_TreasureBox/img/about_4.jpg)
 
 Acxiom UK Homepage [www.acxiom.co.uk](https://www.acxiom.co.uk)
