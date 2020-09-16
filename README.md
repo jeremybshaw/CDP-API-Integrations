@@ -5,9 +5,9 @@ The same Treasure Box integration can be used with the Acxiom Identity Builderâ„
 
 [![Get Started](Acxiom_TreasureBox/img/Get_Started.png)](Acxiom_TreasureBox)
 
-![](Acxiom_TreasureBox/img/about_.jpg)
+![](Acxiom_TreasureBox/img/about_1.jpg)
 
-![](Acxiom_TreasureBox/img/about_.jpg)
+![](Acxiom_TreasureBox/img/about_2.jpg)
 
 ![](Acxiom_TreasureBox/img/about_.jpg)
 
