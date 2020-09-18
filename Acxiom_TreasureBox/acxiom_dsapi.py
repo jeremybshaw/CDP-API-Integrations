@@ -49,7 +49,7 @@ def get_input_sql(table_name,limit):
 def get_test_input_sql(table_name,limit):
    global debug_level
    # Force 1 record of test data   
-   sql="select 1 as id, 'Jeremy' as firstName,'' as middleName,'Shaw' as lastName,'157 ARCHERHILL ROAD' as streetAddress,'GLASGOW' as city,'G13 3JQ' as zipCode from raw_synth_pii limit 1"
+   sql="select 1 as id, 'John' as firstName,'' as middleName,'Smith' as lastName,'157 ARCHERHILL ROAD' as streetAddress,'GLASGOW' as city,'G13 3JQ' as zipCode from raw_synth_pii limit 1"
    
    if debug_level==9:
      print("Debug - Extract SQL forced to 1 record: ",sql)
