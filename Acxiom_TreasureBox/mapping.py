@@ -34,10 +34,10 @@ source_mapping_uk_demo = {
  # Demo mappings for US Synthetic data set
  # for each field supply the SQL to extract it from the souce table
 source_mapping_us_demo = {
-    'id': 'customer_id',
-    'firstName': 'first_name',
-    'middleName': 'middle_name',
-    'lastName': 'last_name',
+    'id': 'id',
+    'firstName': 'firstname',
+    'middleName': 'middlename',
+    'lastName': 'lastname',
     'streetAddress': """Coalesce(
                   Coalesce(primarynumber, '')||
                   Coalesce(' ' || predirectional, '')||

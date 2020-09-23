@@ -67,10 +67,10 @@ For example:
 **mapping.py**
 ```python
 source_mapping = {
-    'id': 'customer_id',
-    'firstName': 'first_name',
-    'middleName': 'middle_name',
-    'lastName': 'last_name',
+    'id': 'id',
+    'firstName': 'firstname',
+    'middleName': 'middlename',
+    'lastName': 'lastname',
     'streetAddress': """Coalesce(
                   Coalesce(primarynumber, '')||
                   Coalesce(' ' || predirectional, '')||
